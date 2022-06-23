@@ -1,2 +1,2 @@
-# KidsDevelopers
-C programming for kids (Laaziv Group Kids Developers)
+# Kids Developers
+## C programming for kids (Laaziv Group Kids Developers)
