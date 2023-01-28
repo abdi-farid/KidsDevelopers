@@ -1,0 +1,13 @@
+racine: parent de l'arbre 
+paren node : prédécesseur d'un noeud quelconque
+
+
+
+
+
+Traversées d'arbres binaires :
+Les algorithmes de traversée d'arbres peuvent être classés en deux grandes catégories :
+
+		- Algorithmes de recherche en profondeur (DFS)
+		- Algorithmes de recherche en largeur (BFS)
+

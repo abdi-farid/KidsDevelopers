@@ -57,4 +57,4 @@ int main()
     printf("%d * %d = %d \n", a, b, mul(a, b));
 
     return 0;
-}
+} 
