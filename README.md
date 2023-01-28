@@ -12,3 +12,7 @@ Afin de pouvoir compiler un programme C, on doit installer un compilateur qui pe
 # Structure 
 
 - ***1_Hello.c*** : the first famous program of each programming language Hello World! it is used to display a welcome message as a starting point for learning the C language
+
+![image](https://user-images.githubusercontent.com/49769250/215276528-602448eb-3c3a-4f57-9502-ef3d2ebc6b6f.png)
+
+
