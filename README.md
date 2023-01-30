@@ -50,9 +50,21 @@ int main() {
 
 >Le mot ***#include*** permet d'inclure une bibliothèque C qui contient qui fonctions qu'on peut utiliser dans notre programme
 
->le mot ***<stdio.h>*** est la bibliothèque standard du langage C, elle contient plusieurs fonctions telle que :
+>Le mot ***<stdio.h>*** est la bibliothèque standard du langage C, elle contient plusieurs fonctions telle que :
 >>**printf**, **scanf**, ...
 
 - **int main()**
 
 >Chaque programme informatique doit avoir un point (une fonction) de démarrage, ***main()*** est la fonction principale par laquelle un programme C commence son exécution
+
+- **printf("Hello World\n");**
+>La fonction ***printf*** prend en entrée une chaine de caractères, et l'affiche sur la sortie standard de systèmes (écran)
+
+- **// ceci est un commentaire sur une ligne**
+>Un commentaire est un texte qui n'est pas pris en charge par un compilateur, il sert à documenter le code
+
+- **/\* \*/**
+> Pour écrire un commentaire sur plusieurs lignes, on utilise cette notation
+
+- **return 0;**
+>Puisque la fonction main comment par ***int***, ce qui signifie que son type de retour est un entier, on retourne un entier à la fin de la fonction principale (programme)
