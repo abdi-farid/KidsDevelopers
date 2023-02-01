@@ -106,3 +106,29 @@ Processus de développement de ce programme :
 >- Entrée des valeurs des opérandes à partir de clavier ***(Lecture des entrées)***
 >- Réalisation de l'opération mathématique ; sommer les valeurs entrées, et mettre le résultat dans la variable du résultat 
 >- Affichage du résultat 
+
+Explication du code :
+>> - **int a;**
+>> -  **int b;**
+>> -  **int resultat;**
+>
+> ***Réservation de cases mémoires*** ; aussi appelé Déclaration des variables 
+>> - **printf("Entrer le nombre a : ");**
+> 
+>***Affichage*** d'un message à l'utilisateur demandant d'entrer la valeur de la variable **a** à partir du clavier 
+>> - **scanf("%d", &a);**
+> 
+>***Lecture*** de la valeur de la variable **a** entrée par le clavier, et la ***mettre dans la case mémoire*** appropriée
+>
+>> - **printf("Entrer le nombre b : ");**
+> 
+>***Affichage*** d'un message à l'utilisateur demandant d'entrer la valeur de la variable **b** à partir du clavier 
+>> - **scanf("%d", &b);**
+> 
+>***Lecture*** de la valeur de la variable **b** entrée par le clavier, et la ***mettre dans la case mémoire*** appropriée
+>>- **resultat = a + b;**
+>
+>Sommer la valeur de la ***variable a*** et la valeur de la ***variable b*** et **affecter** le résultat à la variable ***resultat***
+>> - **printf("%d + %d = %d", a, b, resultat);**
+>
+>***Afficher*** le résultat sur l'invite de commande
