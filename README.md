@@ -25,6 +25,9 @@ Quand la ***personne A*** parle chinois, la ***personne C*** traduit le chinois 
 
 
 La liste des programmes chargés dans la repository
+
+---
+
 - 1_Hello.c
 
 Un programme C qui affiche une phrase sur l'invite de commande (terminal)
@@ -68,3 +71,38 @@ int main() {
 
 - **return 0;**
 >Puisque la fonction main comment par ***int***, ce qui signifie que son type de retour est un entier, on retourne un entier à la fin de la fonction principale (programme)
+
+---
+
+- 2_ADD.c
+un programme C qui demande à l'utilisateur d'entrer deux nombres entiers et affiche en sortie leur somme 
+
+```
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b;
+    int resultat;
+
+    printf("Entrer le nombre a : ");
+    scanf("%d", &a);
+
+    printf("Entrer le nombre b : ");
+    scanf("%d", &b);
+
+    resultat = a + b;
+
+    printf("%d + %d = %d", a, b, resultat);
+
+    return 0;
+}
+```
+
+Processus de développement de ce programme :
+>- Déclaration de deux variables de type entier ***(int)*** [réservation de deux cases mémoire] pour stocker les deux entiers entrés par l'unité d'entrée standard ***clavier***
+>- Déclaration d'une variable ***(réservation de case mémoire)*** où sera stocké le résultat de l'opération mathématique
+>- Entrée des valeurs des opérandes à partir de clavier ***(Lecture des entrées)***
+>- Réalisation de l'opération mathématique ; sommer les valeurs entrées, et mettre le résultat dans la variable du résultat 
+>- Affichage du résultat 
