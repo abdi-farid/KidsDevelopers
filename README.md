@@ -75,6 +75,7 @@ int main() {
 ---
 
 - 2_ADD.c
+
 un programme C qui demande à l'utilisateur d'entrer deux nombres entiers et affiche en sortie leur somme 
 
 ```
@@ -139,3 +140,18 @@ Explication du code :
 > Les programmes ***3_SUB.c*** et ***4_MUL.c*** effectuent les opérations de soustraction et de multiplication respectivement. Avec le même principe que le premier programme d'addition expliqué en détail marchent les programmes des opérations mathématiques
 
 ---
+- 5_Fonction.c 
+
+Une fonction est un programme C (un bout de code), qui a les caractéristiques suivantes: 
+>- Un nom 
+>- Un type de retour 
+>- Des paramètres (Non pas obligatoires)
+
+Voici la structure d'une fonction en langage C : 
+```
+typeRetour nom_fonction(type1 param1, type2 param2, ...){
+  // Traitement ...
+
+  return valeur [de type typeRetour];
+}
+```
