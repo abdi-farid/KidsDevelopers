@@ -132,3 +132,8 @@ Explication du code :
 >> - **printf("%d + %d = %d", a, b, resultat);**
 >
 >***Afficher*** le résultat sur l'invite de commande
+
+---
+- **3_SUB.c** 
+- **4_MUL.c** 
+> Les programmes ***3_SUB.c*** et ***4_MUL.c*** effectuent les opérations de soustraction et de multiplication respectivement. Avec le même principe que le premier programme d'addition expliqué en détail marchent les programmes des opérations mathématiques
