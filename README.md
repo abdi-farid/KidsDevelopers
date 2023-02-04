@@ -155,3 +155,13 @@ typeRetour nom_fonction(type1 param1, type2 param2, ...){
   return valeur [de type typeRetour];
 }
 ```
+
+Voici un exemple réel de fonction d'addition de deux nombres et retourne le résultat de l'opération 
+
+
+```
+int add(int value1, int value2){
+  return value1 + value2;
+}
+```
+>Cette fonction ***add*** prend en entrée deux variables et retourne en sortie la somme de ces deux variables 
